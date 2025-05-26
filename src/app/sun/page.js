@@ -5,7 +5,6 @@ import { Rubik_Beastly } from "next/font/google"
 
 const rl = Rhodium_Libre({subsets: ["latin"]})
 const rb = Rubik_Beastly({
-    weight: "400",
     subsets: ["latin"]
 })
 
