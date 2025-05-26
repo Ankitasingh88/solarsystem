@@ -3,8 +3,10 @@ import { Honk } from "next/font/google"
 import { Rhodium_Libre } from "next/font/google"
 import { Rubik_Beastly } from "next/font/google"
 
-const rl = Rhodium_Libre({subsets: ["latin"]})
+const rl = Rhodium_Libre({subsets: ["latin"], weight: "400"})
+//const rl = Rhodium_Libre({weight: "400"})
 const rb = Rubik_Beastly({
+     weight: "400",
     subsets: ["latin"]
 })
 
